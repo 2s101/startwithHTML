@@ -30,6 +30,17 @@
                 margin-right: auto; 
                 display: block;
             }
+            a:link, a:visited { 
+                background-color: lightgray;
+                color: white;
+                padding: 15px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            a:hover, a:active { 
+                background-color: darkgray;
+            }
         </style>
     </head>
     <body>
@@ -40,11 +51,11 @@
             My first Computers
         </h2>
         <p title="about Z80" style="background-color: green; ">
-             I learned GW-BASIC with Z80 Computer When I was an elementary student.
+             I learned <a href="#GWB">GW-BASIC</a> with Z80 Computer When I was an elementary student.
         </p>
         <img src="static/img/IQ1000.jpg" with="300" height="200" alt="IQ1000">
         <p style="text-align: center;">
-            <a href="https://m.blog.naver.com/nicole7020/221965501221"> 
+            <a href="https://m.blog.naver.com/nicole7020/221965501221" target="_blank"> 
                 Info
             </a>
         </p>
@@ -59,17 +70,17 @@
         </p>
         <img src="static/img/X-II.jpg" with="300" height="400" alt="X-II">
         <p style="text-align: center;">
-            <a href="https://bbs.ruliweb.com/hobby/board/300431/read/30554934">
+            <a href="https://bbs.ruliweb.com/hobby/board/300431/read/30554934" target="_blank">
                 Info
             </a>
         </p>
         <hr>
-        <h2>
+        <h2 id="GWB">
             GW-BASIC
         </h2>
         <p>
             IQ1000 had a interpreter for 
-            <a href="https://github.com//microsoft/GW-BASIC">GW-BASIC</a> 
+            <a href="https://github.com//microsoft/GW-BASIC" target="_blank">GW-BASIC</a> 
             language</p>
         <img src="https://opensource.com/sites/default/files/uploads/gwbasic2.png" alt="GW-BASIC CODE">
         <pre>
