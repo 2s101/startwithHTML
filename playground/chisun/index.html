@@ -2,47 +2,87 @@
 <html>
     <head>
         <title>Chisun's Skills</title>
+        <style>
+            body {
+                background-color:powderblue;
+                font-family: lucida console;
+            }
+            h1 {
+                font-size: 300%; 
+                background-color: lightblue; 
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
+                background-color: lightgray;
+                font-size: 200%;
+      
+            }
+            p { 
+                font-size:20px;
+                color:red; 
+                padding : 30px;
+                border: 2px dashed #ccc;
+                margin : 30px;
+            }
+            img { 
+                margin-left: auto; 
+                margin-right: auto; 
+                display: block;
+            }
+            a:link, a:visited { 
+                background-color: lightgray;
+                color: white;
+                padding: 15px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            a:hover, a:active { 
+                background-color: darkgray;
+            }
+        </style>
     </head>
-    <body style="background-color:powderblue;font-family: lucida console;">
-        <h1 style="font-size: 300%; background-color: lightblue; text-align: center;">
+    <body>
+        <h1> 
              Chisun Joung's Programing Experience 
         </h1>
-        <h2 style="text-align: center"> 
+        <h2> 
             My first Computers
         </h2>
-        <p title="about Z80" style="font-size:20px;color:red; text-align:center; background-color: green; ">
-             I learned GW-BASIC with Z80 Computer When I was an elementary student.
+        <p title="about Z80" style="background-color: green; ">
+             I learned <a href="#GWB">GW-BASIC</a> with Z80 Computer When I was an elementary student.
         </p>
-        <img src="static/img/IQ1000.jpg" with="300" height="200" alt="IQ1000" style="margin-left: auto; margin-right: auto; display: block;">
+        <img src="static/img/IQ1000.jpg" with="300" height="200" alt="IQ1000">
         <p style="text-align: center;">
-            <a href="https://m.blog.naver.com/nicole7020/221965501221"> 
+            <a href="https://m.blog.naver.com/nicole7020/221965501221" target="_blank"> 
                 Info
             </a>
         </p>
         <br><br><br>
-        <p style="font-size:20px;color:red; text-align:center">
+        <p>
             My parents bought FDD and QDD for me. These were used for playing game. It was the first time to use a DOS (MS-DOS).
         </p>
-        <img src="static/img/FDD_QDD.jpg" with="300" height="200" alt="FDD QDD" style="margin-left: auto; margin-right: auto; display: block;">
+        <img src="static/img/FDD_QDD.jpg" with="300" height="200" alt="FDD QDD">
         <br>
-        <p style="font-size:20px;color:red; text-align:center">
+        <p>
             My second computer was a DAEWOO X-II computers when I was a middle schooler. 
         </p>
-        <img src="static/img/X-II.jpg" with="300" height="400" alt="X-II" style="margin-left: auto; margin-right: auto; display: block;">
+        <img src="static/img/X-II.jpg" with="300" height="400" alt="X-II">
         <p style="text-align: center;">
-            <a href="https://bbs.ruliweb.com/hobby/board/300431/read/30554934">
+            <a href="https://bbs.ruliweb.com/hobby/board/300431/read/30554934" target="_blank">
                 Info
             </a>
         </p>
         <hr>
-        <h2>
+        <h2 id="GWB">
             GW-BASIC
         </h2>
-        <p style="font-size:20px;color:red; text-align:center">
+        <p>
             IQ1000 had a interpreter for 
-            <a href="https://github.com//microsoft/GW-BASIC">GW-BASIC</a> 
+            <a href="https://github.com//microsoft/GW-BASIC" target="_blank">GW-BASIC</a> 
             language</p>
-        <img src="https://opensource.com/sites/default/files/uploads/gwbasic2.png" alt="GW-BASIC CODE" style="margin-left: auto; margin-right: auto; display: block;">
+        <img src="https://opensource.com/sites/default/files/uploads/gwbasic2.png" alt="GW-BASIC CODE">
         <pre>
             >10 FOR A = 1 TO 10
             >20 PRINT "A = ",A
@@ -51,23 +91,34 @@
             >50 PRINT "Total = ",T 
         </pre>
         <hr>
-        <h2 style="font-size: 200%; text-align: center; background-color: rgba(129, 87, 32, 0.452);">
+        <h2>
             <b>My second Computer</b>
         </h2>
-        <p style="font-size:20px;color:red;">
+        <p>
             <strong>IBM XT was my second pc when I was a high schooler.</strong> 
+        </p>
             <blockquote>
             I used it until when i was a freshman. I didn't understand <cite> MS-DOS </cite> evironment well.
             I couldn't program properly because I learned only <em>GW-BASICS</em>. XT didn't provide any comilers or interpreters. Fortunately,
             I started learning the turbo-c proraming language when I graduated from high school.
             Turbo-C was needed 3 <mark> inch Floppy disks</mark> to run it properly.  
             </blockquote>
-        </p>
-        <img src="static/img/XT.jpg" alt="XT" width="200" height="200" style="margin-left: auto; margin-right: auto; display:block;">
-        <img src="static/img/turbo-c.png" alt="turbo-C" width="200" height="200" style="margin-left: auto; margin-right: auto; display:block;">
-        <img src="static/img/turbo-disk.jpg" alt="turbo-C disks" width="200" height="300" style="margin-left: auto; margin-right: auto; display:block;">
+     
+        <img src="static/img/XT.jpg" alt="XT" width="200" height="200">
+        <img src="static/img/turbo-c.png" alt="turbo-C" width="200" height="200">
+        <img src="static/img/turbo-disk.jpg" alt="turbo-C disks" width="200" height="300">
     
         <hr>
+        <!-- 
+            this is comment.
+            I have a iron stomach.  
+        -->
+        <h2 style="border:2px solid DodgerBlue;">386 PC</h2>
+        <img src="static/img/386pc.jpg" width="200" height="200" alt="386PC">
+        <p>
+            This was my first color display computer. <em>C++</em>, <mark>JavaScript</mark> were my next programming language.
+            I also learned ASM language. I also programed for 8bit PIC CPU with ASM language.
+        </p>
         <address>
             Written by Chisun Joung.<br>
             E-mail: chisun.joung@lge.com.<br>
