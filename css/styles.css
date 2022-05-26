@@ -45,8 +45,15 @@ a:hover, a:active {
     padding: 20px;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 2em;
+  }
+
 #img1,
 #img2,
 #img3 {
+    float: left;
     width: 33%;
 }
