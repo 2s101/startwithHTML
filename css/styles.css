@@ -45,15 +45,18 @@ a:hover, a:active {
     padding: 20px;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1140px;
-    padding: 0 2em;
-  }
-
-#img1,
-#img2,
-#img3 {
+* {
+    box-sizing: border-box;
+}
+  
+.box {
     float: left;
-    width: 33%;
+    width: 33.33%;
+    padding: 50px;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
