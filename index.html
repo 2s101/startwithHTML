@@ -8,11 +8,25 @@
         <h1> 
              Chisun Joung's Programing Experience 
         </h1>
-        <h2> 
+        <header>
+            <h2>Computers</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                  <li><a href="#NO1">My first Computers</a></li>
+                  <li><a href="#NO2">GW-BASIC</a></li>
+                  <li><a href="#NO3">My Third Computer</a></li>
+                  <li><a href="#NO4">386 PC</a></li>
+                  <li><a href="#NO5">Pentimu MMX</a></li>
+                </ul>
+              </nav>
+        <article>      
+        <h2 id="NO1"> 
             My first Computers
         </h2>
         <p title="about Z80" style="background-color: green; ">
-             I learned <a href="#GWB">GW-BASIC</a> with Z80 Computer When I was an elementary student.
+             I learned <a href="#NO2">GW-BASIC</a> with Z80 Computer When I was an elementary student.
         </p>
         <img src="static/img/IQ1000.jpg" with="300" height="200" alt="IQ1000">
         <p style="text-align: center;">
@@ -37,7 +51,7 @@
         </p>
         <hr>
         <div style="background-color:black;color:white;padding:80px;margin:30px;">
-        <h2 id="GWB">
+        <h2 id="NO2">
             GW-BASIC
         </h2>
         <p>
@@ -55,7 +69,7 @@
         </div>
         <hr>
         
-        <h2>
+        <h2 id="NO3">
             <b>My Third Computer</b>
         </h2>
         <p>
@@ -78,14 +92,14 @@
             this is comment.
             I have a iron stomach.  
         -->
-        <h2 style="border:2px solid DodgerBlue;">386 PC</h2>
+        <h2 id="NO4"style="border:2px solid DodgerBlue;">386 PC</h2>
         <img src="static/img/386pc.jpg" width="200" height="200" alt="386PC">
         <p>
             This was my first color display computer. <em>C++</em>, <mark>JavaScript</mark> were my next programming language.
             I also learned ASM language. I also programed for 8bit PIC CPU with ASM language.
         </p>
         <hr>
-        <h2>Pentimu MMX</h2>
+        <h2 id="NO5">Pentimu MMX</h2>
         <p>
             <img src="static/img/pentium_mmx.png" alt="Pentium MMX" style="float:left; height:50px; width:50px;" >
             When I finished military service, I used a Pentium MMX PC
@@ -96,6 +110,8 @@
             <area shape="rect" coords="290,172,333,250" alt="Phone" onclick="myFunction2()">
             <area shape="circle" coords="337,300,44" alt="Coffee" onclick="myFunction3()">
         </map>
+
+        </article>
         <script>
             function myFunction1() {
               alert("You clicked the Computer!");
@@ -107,9 +123,12 @@
               alert("You clicked the Coffee cup!");
             }     
         </script>
+        </section>
+        <footer>
         <address>
             Written by Chisun Joung.<br>
             E-mail: chisun.joung@lge.com.<br>
         </address>
+        </footer>
     </body>
 </html>

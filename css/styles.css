@@ -60,3 +60,38 @@ a:hover, a:active {
     clear: both;
     display: table;
 }
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+nav {
+    float: left;
+    width: 20%;  
+    background: #ccc;
+    padding: 20px;
+  }
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+   
+  }
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
