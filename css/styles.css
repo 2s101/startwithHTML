@@ -120,3 +120,11 @@ header {
       flex-direction: column;
     }
   }
+
+.enhanced #menu {
+	max-height: 0;
+	overflow: hidden;
+}
+.enhanced #menu.open {
+	max-height: 20em;
+}
