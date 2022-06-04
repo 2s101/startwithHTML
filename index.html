@@ -3,13 +3,13 @@
     <head>
         <title>Chisun's Skills</title>
         <link rel="stylesheet" href="css/styles.css">
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-        <script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- <script>
              document.addEventListener("DOMContentLoaded", function(){
                    var element = document.getElementById("nav");
                    element.classList.add("enhanced");
                });
-        </script>
+        </script> -->
     </head>
     <body>
         <h1> 
@@ -29,14 +29,14 @@
                   <li><a href="#NO5">Pentimu MMX</a></li>
                 </ul>
             </nav>
-            <script>
+            <!-- <script>
               
                function menu_toggle(){
                    var element = document.getElementById("menu");
                     element.classList.toggle("open");
                }
-            </script>
-            <!-- <script>
+            </script> -->
+            <script>
                 $(document).ready(function() {
                     $("nav").addClass('enhanced');
                     var $nav = $("#menu");
@@ -44,12 +44,12 @@
     
                     if( $navToggle ) {
                         $navToggle.on( "click", function() {
-                            $nav.toggleClass( 'open' );
+                            $nav.slideToggle('slow');
                         });
                     }
     
                 });
-            </script> -->
+            </script>
             <article>      
                 <h2 id="NO1"> 
                     My first Computers
